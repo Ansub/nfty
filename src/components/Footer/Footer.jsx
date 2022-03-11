@@ -1,6 +1,6 @@
 import React from "react"
 import "./Footer.css"
-import footerLogo from "../images/footerLogo.svg"
+import footerLogo from "../images/footerLogo.png"
 const Footer = () => {
   return (
     <footer className="text-light text-center p-4 footer">

@@ -11,7 +11,7 @@ const Process = () => {
       <div className="container">
         <h2>Process</h2>
         <p className="lead pb-5">i like to keep things simple</p>
-        <div className="row pb-3">
+        <div className="row pb-3 mb-5">
           <div className="col mb-3">
             <div className="card">
               <div className="card-body">

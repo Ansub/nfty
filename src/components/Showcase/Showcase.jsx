@@ -10,72 +10,106 @@ import six from "../images/nfts/6.png"
 const Showcase = () => {
   return (
     <section className="p-5 text-black text-center showcase" id="showcase">
-      <h1 className="heading pb-3">Spring Collection</h1>
-      <div className="row">
-        <div className="col mb-5">
+      <h1 className="heading pb-5">Spring Collection</h1>
+      <div className="row g-5">
+        {/* First NFT*/}
+        <div className="col-md d-flex justify-content-center align-items-center ">
           <div className="card">
             <div className="card-body">
-              <img src={first} alt="" className="img-fluid p-3" />
-              <h5 className="pb-3">
+              <img src={first} alt="first-nft" className="img-fluid p-3" />
+              <p className="p-2">
                 money collected from this NFT goes into Ukraine Aid
-              </h5>
-              <p>
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              </p>
+              <p className="row">
+                <div className="col">
+                  <span className="fw-bold mx">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg mb-4">Start Bid</button>
             </div>
           </div>
         </div>
-        <div className="col mb-5">
+
+        {/* Second NFT*/}
+
+        <div className="col-md d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="card-body">
               <img src={second} alt="" className="img-fluid p-3" />
-              <p className="pt-5">
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              <p className="row pt-5">
+                <div className="col">
+                  <span className="fw-bold mx">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg m-4">Start Bid</button>
             </div>
           </div>
         </div>
-        <div className="col mb-5">
+
+        {/* Third NFT*/}
+
+        <div className="col-md d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="card-body">
               <img src={third} alt="" className="img-fluid p-3" />
-              <p className="pt-5">
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              <p className="row  pt-5">
+                <div className="col">
+                  <span className="fw-bold mx">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg m-4">Start Bid</button>
             </div>
           </div>
         </div>
-        <div className="col mb-5">
+
+        {/* Four NFT*/}
+
+        <div className="col-md d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="card-body">
-              <img src={four} alt="" className="img-fluid p-3" />
-              <p className="pt-5">
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              <img src={four} alt="fourthImage" className="img-fluid p-3" />
+              <p className="row pt-5">
+                <div className="col">
+                  <span className="fw-bold mx">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg m-4">Start Bid</button>
             </div>
           </div>
         </div>
-        <div className="col mb-5">
+
+        {/* Five NFT*/}
+
+        <div className="col-md d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="card-body">
-              <img src={five} alt="" className="img-fluid p-3" />
-              <p className="pt-5">
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              <img src={five} alt="fifthImage" className="img-fluid p-3" />
+              <p className="row pt-5">
+                <div className="col">
+                  <span className="fw-bold mx">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg m-4">Start Bid</button>
             </div>
           </div>
         </div>
-        <div className="col mb-5">
+
+        {/* Six NFT*/}
+
+        <div className="col-md d-flex justify-content-center align-items-center">
           <div className="card">
             <div className="card-body">
-              <img src={six} alt="" className="img-fluid p-3" />
-              <p className="pt-5">
-                <span className="fw-bold">Price:</span> ETH 4.00 ($11,211.10)
+              <img src={six} alt="sixImage" className="img-fluid p-3" />
+              <p className="row pt-5">
+                <div className="col">
+                  <span className="fw-bold">Price:</span> ETH 4.00
+                </div>
+                <div className="col">($11,211.10)</div>
               </p>
               <button className="btn btn-primary btn-lg m-4">Start Bid</button>
             </div>

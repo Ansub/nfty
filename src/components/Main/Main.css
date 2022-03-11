@@ -1,5 +1,5 @@
 .main h1 {
-  font-size: 258px;
+  font-size: 250px;
   font-weight: 700;
 }
 .main {
@@ -11,17 +11,17 @@
 }
 
 /* Media Query */
-@media only screen and (max-width: 425px) {
+@media screen and (max-width: 425px) {
   .main h1 {
     font-size: 160px;
   }
 }
 
-@media only screen and (max-width: 800px) {
+@media screen and (max-width: 768px) {
   .main h1 {
     font-size: 160px;
   }
   .main p {
-    font-size: 22px !important;
+    font-size: 18px !important;
   }
 }

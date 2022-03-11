@@ -3,7 +3,7 @@ import "./Navbar.css"
 import logo from "../images/navbarLogo.png"
 const Navbar = () => {
   return (
-    <nav class="navbar navbar-expand-lg navbar-dark p-3">
+    <nav class="navbar navbar-expand-lg navbar-dark py-3">
       <div class="container ">
         <div className="d-flex align-items-center justify-items-center ">
           <img src={logo} alt="nfty--logo" className="img-fluid mx-2" />

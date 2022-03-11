@@ -19,8 +19,8 @@
 }
 
 .showcase .card {
-  width: 367px;
   height: 532px;
+  width: 367px;
   background: #f8f8f8;
   box-shadow: 2.4px 2.4px 16px rgba(0, 0, 0, 0.25);
   border-radius: 24px;
@@ -38,7 +38,7 @@
 }
 
 /* Media Query */
-@media only screen and (max-width: 425px) {
+@media (max-width: 425px) {
   .showcase h1 {
     font-size: 60px;
   }

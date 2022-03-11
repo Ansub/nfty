@@ -1,5 +1,7 @@
-.p-5 {
-  padding-left: 8rem 0rem !important;
+.developers p {
+  font-size: 1.3rem;
+  line-height: 1.5;
+  margin-bottom: 1rem;
 }
 
 .developers .btn-primary {
@@ -8,8 +10,16 @@
   border: none !important;
   width: 210px !important;
 }
-@media only screen and (max-width: 425px) {
-  .p-5 {
-    padding-top: 5rem !important;
+
+/* Media Query */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 425px) {
+  .developers p {
+    font-size: 1rem;
   }
 }
