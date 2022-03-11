@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/nfty/static/css/main.c1666c8c.css",
+    "main.js": "/nfty/static/js/main.be30da4e.js",
+    "static/media/mainNftImage.png": "/nfty/static/media/mainNftImage.d078173e723db48290a4.png",
+    "static/media/developers.png": "/nfty/static/media/developers.4643476a5e70a9370237.png",
+    "static/media/5.png": "/nfty/static/media/5.f1168f6015c4096426e0.png",
+    "static/media/3.png": "/nfty/static/media/3.aef7e09f01a0cb21fa26.png",
+    "static/media/4.png": "/nfty/static/media/4.38fcc6158f3bdb6a66e7.png",
+    "static/media/2.png": "/nfty/static/media/2.63f4ce2a24e613c1044d.png",
+    "static/media/6.png": "/nfty/static/media/6.2aebc09c3c8cc88d4a6c.png",
+    "static/media/1.png": "/nfty/static/media/1.84d3d245663dd8ec4308.png",
+    "static/media/nft.png": "/nfty/static/media/nft.1afab65114d68ff5807b.png",
+    "static/media/footerLogo.png": "/nfty/static/media/footerLogo.44bd56f6402ec169c211.png",
+    "static/media/github.svg": "/nfty/static/media/github.89e3d3a0073d28541ccdbab451514a00.svg",
+    "index.html": "/nfty/index.html",
+    "main.c1666c8c.css.map": "/nfty/static/css/main.c1666c8c.css.map",
+    "main.be30da4e.js.map": "/nfty/static/js/main.be30da4e.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c1666c8c.css",
+    "static/js/main.be30da4e.js"
+  ]
+}
